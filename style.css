@@ -1,14 +1,21 @@
 
 
-
-
 body {
-    background-color: rgb(116, 105, 105);
     font-family:'PT Sans', sans-serif;
     margin: 0;
 }
 
+.hlavicka {
+    padding: 150px 100px;
+    background-image: url(images/úvodka.jpg);
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+}
 
+h1 {
+
+}
 
 .hrad,
 .poklicky,
@@ -34,4 +41,8 @@ section {
 
 .prvni {
     background-color: rgba(182, 126, 94, 0.438);
+}
+
+.druhy {
+    background-color: #ac6b3ac5;
 }
