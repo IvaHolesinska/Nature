@@ -21,11 +21,16 @@ h1 {
 
 .menu {
     background-color: rgb(147, 165, 42);
+    text-align: center;
 }
 
-a {
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
     display: inline-block;
 }
+
 
 .hrad,
 .poklicky,
