@@ -19,6 +19,14 @@ h1 {
     text-align: center;
 }
 
+.menu {
+    background-color: rgb(147, 165, 42);
+}
+
+a {
+    display: inline-block;
+}
+
 .hrad,
 .poklicky,
 .hory {
