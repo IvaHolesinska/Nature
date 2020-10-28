@@ -52,7 +52,7 @@ h1 {
 .poklicky,
 .hory {
     width: 200px;
-    margin: 30px 30px 2px 2px;
+    margin: 20px 20px 20px 20px;
     border-radius: 10% 10%;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
 }
