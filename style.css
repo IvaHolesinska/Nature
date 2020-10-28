@@ -2,6 +2,7 @@
 
 body {
     font-family:'PT Sans', sans-serif;
+    text-align: justify;
     margin: 0;
 }
 
@@ -19,18 +20,33 @@ h1 {
     text-align: center;
 }
 
+
 .menu {
-    background-color: rgb(147, 165, 42);
+    margin: 0;
+    padding: 0;
+    list-style: none;
     text-align: center;
-}
-
-.menu a {
     color: white;
-    text-decoration: none;
-    padding: 20px;
+    background-color: #282425;
+    border-top: 1px solid #9c8175;
+  }
+  
+  .menu li {
     display: inline-block;
-}
-
+  }
+  
+  .menu a {
+    display: inline-block;
+    padding: 20px 30px;
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .menu a:hover {
+    background-color: #756158;
+  }
 
 .hrad,
 .poklicky,
@@ -60,4 +76,5 @@ section {
 
 .druhy {
     background-color: #ac6b3ac5;
-}
+
+      }
