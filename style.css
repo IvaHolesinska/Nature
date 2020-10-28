@@ -2,8 +2,10 @@
 
 body {
     font-family:'PT Sans', sans-serif;
+    font-size: 20px;
     text-align: justify;
     margin: 0;
+    line-height: 1.5;
 }
 
 .hlavicka {
@@ -49,26 +51,32 @@ h1 {
   }
 
 .hrad,
-.poklicky,
+.houba,
 .hory {
-    width: 200px;
+    width: 320px;
     margin: 20px 20px 20px 20px;
+    padding-top: 0;
     border-radius: 10% 10%;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.houba {
+  margin: -10px 20px 20px 20px;
 }
 
 .hrad {
     float: left;
 }
 
-.poklicky {
+.houba {
     float: right;
 }
 
 section {
-    padding: 50px 15%;
-    overflow: auto;
-  }
+  overflow: auto;
+  padding: 20px 15%;
+}
+
 
 .prvni {
     background-color: rgba(182, 126, 94, 0.438);
@@ -76,5 +84,18 @@ section {
 
 .druhy {
     background-color: #ac6b3ac5;
-
+    height: 600px;
       }
+
+
+.Kokorin {
+  height: 500px;
+  margin: 40px 30px;
+}
+
+
+.Poklicky {
+  height: 150px;
+  margin: 30px 30px;
+}
+  
