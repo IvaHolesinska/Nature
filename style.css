@@ -2,9 +2,10 @@
 
 body {
     font-family:'PT Sans', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     text-align: justify;
     margin: 0;
+    padding: 0;
     line-height: 1.5;
 }
 
@@ -53,7 +54,7 @@ h1 {
 .hrad,
 .houba,
 .hory {
-    width: 320px;
+    width: 180px;
     margin: 20px 20px 20px 20px;
     padding-top: 0;
     border-radius: 10% 10%;
@@ -74,7 +75,7 @@ h1 {
 
 section {
   overflow: auto;
-  padding: 20px 10%;
+  padding: 8px;
 }
 
 
@@ -84,18 +85,12 @@ section {
 
 .druhy {
     background-color: #ac6b3ac5;
-    height: 600px;
       }
 
 
-.Kokorin {
+.Kokorin,
+.Poklicky {
   margin: 40px 30px;
 }
 
-
-.Poklicky {
-  height: 150px;
-  margin: 30px 30px;
-  width: 100%;
-}
   
