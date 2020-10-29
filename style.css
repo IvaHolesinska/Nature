@@ -53,8 +53,8 @@ h1 {
 
 .hrad,
 .houba,
-.hory {
-    width: 180px;
+.kamen {
+    width: 200px;
     margin: 20px 20px 20px 20px;
     padding-top: 0;
     border-radius: 10% 10%;
@@ -88,9 +88,15 @@ section {
       }
 
 
-.Kokorin,
-.Poklicky {
+p {
   margin: 40px 30px;
+  padding-top: 10px;
 }
 
+.brana,
+.hory,
+.vyhled {
+  width: 32%;
+  height: 200px;
+}
   
