@@ -74,7 +74,7 @@ h1 {
 
 section {
   overflow: auto;
-  padding: 20px 15%;
+  padding: 20px 10%;
 }
 
 
@@ -89,7 +89,6 @@ section {
 
 
 .Kokorin {
-  height: 500px;
   margin: 40px 30px;
 }
 
@@ -97,5 +96,6 @@ section {
 .Poklicky {
   height: 150px;
   margin: 30px 30px;
+  width: 100%;
 }
   
