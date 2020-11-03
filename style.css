@@ -65,7 +65,8 @@ h1 {
   margin: -10px 20px 20px 20px;
 }
 
-.hrad {
+.hrad,
+.kamen {
     float: left;
 }
 
@@ -73,7 +74,8 @@ h1 {
     float: right;
 }
 
-section {
+.prvni,
+.druhy {
   overflow: auto;
   padding: 8px;
 }
@@ -93,10 +95,13 @@ p {
   padding-top: 10px;
 }
 
-.brana,
-.hory,
-.vyhled {
-  width: 32%;
-  height: 200px;
+.galerie {
+  display: flex;
+  flex-direction: row;
 }
-  
+
+.galerie img {
+  width: 32%;
+  border: 2px solid #756158;
+  border-radius: 5px;
+}
