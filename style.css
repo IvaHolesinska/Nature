@@ -107,13 +107,23 @@ p {
 }
 
 .galerie img {
-  width: 32.3%;
+  /* width: 32.3%; */
+  flex-basis: calc(100% / 3);
+  width: 250px;
   border: 2px solid #756158;
   border-radius: 5px;
-}
+} 
 
 .galerie {
   padding: 50px 15%;
   overflow: auto;
   justify-content: space-evenly;
+}
+
+@media (min-width: 600px) {
+  .kontejner {display: flex;}
+}
+
+.obr {
+  flex-grow: 1;
 }
