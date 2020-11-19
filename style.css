@@ -23,6 +23,9 @@ h1 {
     text-align: center;
 }
 
+h2 {
+  text-align: center;
+}
 
 .menu {
     margin: 0;
@@ -74,6 +77,9 @@ h1 {
     float: right;
 }
 
+.hrad {
+  margin-top: -5px;
+}
 .prvni,
 .druhy {
   overflow: auto;
@@ -85,7 +91,8 @@ h1 {
     background-color: rgba(182, 126, 94, 0.438);
 }
 
-.druhy {
+.druhy,
+.galerie {
     background-color: #ac6b3ac5;
       }
 
@@ -95,13 +102,18 @@ p {
   padding-top: 10px;
 }
 
-.galerie {
-  display: flex;
-  flex-direction: row;
+.Kokorin p {
+  padding-top: 90px;
 }
 
 .galerie img {
-  width: 32%;
+  width: 32.3%;
   border: 2px solid #756158;
   border-radius: 5px;
+}
+
+.galerie {
+  padding: 50px 15%;
+  overflow: auto;
+  justify-content: space-evenly;
 }
